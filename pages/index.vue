@@ -122,14 +122,20 @@
       </v-container></v-sheet
     >
     <Homenews class="mt-16 d-none d-md-flex" />
+    <v-container grid-list-xs class="d-flex justify-center">
+      <v-card-title primary-title> News </v-card-title>
+    </v-container>
+
+    <v-container grid-list-xs> <Newscard /> </v-container>
   </div>
 </template>
 
 <script>
 import Homecard from "../components/homecard.vue";
 import Homenews from "../components/homenews.vue";
+import Newscard from "../components/newscard.vue";
 export default {
   name: "IndexPage",
-  components: { Homecard, Homenews },
+  components: { Homecard, Homenews, Newscard },
 };
 </script>

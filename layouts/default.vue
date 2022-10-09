@@ -56,51 +56,6 @@ export default {
   data() {
     return {
       products: [],
-      // clipped: false,
-      // drawer: false,
-      // fixed: false,
-      // items: [
-      //   {
-      //     action: "mdi-ticket",
-      //     items: [{ title: "Түүхэн замнал " }],
-      //     title: "Сургуулийн тухай",
-      //   },
-      //   {
-      //     action: "mdi-silverware-fork-knife",
-      //     active: true,
-      //     items: [
-      //       { title: "Breakfast & brunch" },
-      //       { title: "New American" },
-      //       { title: "Sushi" },
-      //     ],
-      //     title: "Dining",
-      //   },
-      //   {
-      //     action: "mdi-school",
-      //     items: [{ title: "List Item" }],
-      //     title: "Education",
-      //   },
-      //   {
-      //     action: "mdi-human-male-female-child",
-      //     items: [{ title: "List Item" }],
-      //     title: "Family",
-      //   },
-      //   {
-      //     action: "mdi-bottle-tonic-plus",
-      //     items: [{ title: "List Item" }],
-      //     title: "Health",
-      //   },
-      //   {
-      //     action: "mdi-briefcase",
-      //     items: [{ title: "List Item" }],
-      //     title: "Office",
-      //   },
-      //   {
-      //     action: "mdi-tag",
-      //     items: [{ title: "List Item" }],
-      //     title: "Promotions",
-      //   },
-      // ],
       tabs: [
         {
           title: "Сургалт",
@@ -115,7 +70,7 @@ export default {
         },
         {
           title: "сургалт ",
-          to: "/inspire",
+          to: "/education",
         },
         {
           title: "Бидний амжилт",
