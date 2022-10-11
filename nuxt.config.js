@@ -33,7 +33,25 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    [
+      "@nuxtjs/firebase",
+      {
+        config: {
+          apiKey: "AIzaSyBAZhRz5Ke1UFpDNjFIt8iGkaTi45T13aA",
+          authDomain: "uzblas.firebaseapp.com",
+          projectId: "uzblas",
+          storageBucket: "uzblas.appspot.com",
+          messagingSenderId: "776702425540",
+          appId: "1:776702425540:web:c57aed4340aec277750c91",
+          measurementId: "G-LGHT7XG9MG",
+        },
+        services: {
+          auth: true, // Just as example. Can be any other service.
+        },
+      },
+    ],
+  ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
